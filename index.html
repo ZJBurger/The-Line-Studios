@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Line Studios — Spatial Planning to Interior Design</title>
+<meta name="description" content="The Line Studios — spatial planning, interior design, showroom design and project management. Warm. Natural. Refined." />
+<meta name="robots" content="index, follow" />
+
+<!-- Update this to your live domain before launch -->
+<link rel="canonical" href="https://thelinestudio.co.za/" />
+
+<!-- Google Search Console verification — paste the "content" value Search
+     Console gives you for the HTML tag method (Settings → Ownership
+     verification → HTML tag). Skip this if you verify via DNS instead. -->
+<!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" /> -->
+
+<!-- Open Graph / social sharing preview -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The Line Studios" />
+<meta property="og:title" content="The Line Studios — Spatial Planning to Interior Design" />
+<meta property="og:description" content="Interior design, spatial planning, showroom design and project management. Warm. Natural. Refined." />
+<meta property="og:image" content="https://thelinestudio.co.za/Assets/og-image.jpg" />
+<meta property="og:url" content="https://thelinestudio.co.za/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The Line Studios — Spatial Planning to Interior Design" />
+<meta name="twitter:description" content="Interior design, spatial planning, showroom design and project management. Warm. Natural. Refined." />
+<meta name="twitter:image" content="https://thelinestudio.co.za/Assets/og-image.jpg" />
+
+<!-- Structured data — helps Google understand this is a real local
+     business (name, contact info, service area) and can unlock richer
+     search results. Update the address block if you want to add a
+     street address for stronger local/Maps visibility. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Line Studios",
+  "image": "https://thelinestudio.co.za/Assets/Fav/TLS_logo.png",
+  "url": "https://thelinestudio.co.za/",
+  "telephone": "+27833821738",
+  "email": "info@thelineco.co.za",
+  "description": "The Line Studios is a family-owned interior design and furniture manufacturing company offering spatial planning, interior design, showroom design and project management across South Africa.",
+  "foundingDate": "2020",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Pretoria",
+    "addressRegion": "Gauteng",
+    "addressCountry": "ZA"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "South Africa"
+  },
+  "sameAs": [
+    "https://www.facebook.com/co.theline",
+    "https://www.instagram.com/co.theline",
+    "https://www.linkedin.com/in/the-line-studios-904b91210/",
+    "https://www.tiktok.com/@theline.co"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=20260822" />
+<link rel="icon" type="image/svg+xml" href="Assets/Fav/favicon.svg" />
+<link rel="icon" type="image/png" sizes="96x96" href="Assets/Fav/favicon-96x96.png" />
+<link rel="shortcut icon" href="Assets/Fav/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="Assets/Fav/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+</head>
+<body>
+
+<!-- SVG filter: limestone texture -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="limestone" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.055 0.07" numOctaves="5" seed="11" result="grain"/>
+      <feDiffuseLighting in="grain" surfaceScale="2.4" diffuseConstant="1.02" lighting-color="#FFFDF9" result="lit">
+        <feDistantLight azimuth="228" elevation="62"/>
+      </feDiffuseLighting>
+      <feComposite in="lit" in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+</svg>
+
+<!-- ══ NAV ══ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="Assets/Fav/TLS_logo.png" alt="The Line Studios" class="nav-logo-icon" />
+      <img src="Assets/Fav/TLS_logo2.png" alt="The Line Studios — Spatial Planning to Interior Design" class="nav-logo-word" />
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#online">Shop</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#process">Process</a>
+    <a href="#online">Shop</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+
+  <div class="hero-scene" aria-hidden="true">
+    <svg class="hero-scene-svg" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <linearGradient id="gLamp" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#EAE3D6" stop-opacity=".5"/><stop offset="100%" stop-color="#EAE3D6" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="gPend" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#EFE9DC" stop-opacity=".4"/><stop offset="100%" stop-color="#EFE9DC" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="gWin" cx="50%" cy="40%" r="60%">
+          <stop offset="0%" stop-color="#FFFCF4" stop-opacity=".26"/><stop offset="100%" stop-color="#FFFCF4" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+
+      <g class="sc-arch">
+        <path class="draw draw-1" d="M 90 470 L 1110 470"/>
+        <path class="draw draw-2" d="M 150 470 L 150 130 L 1050 130 L 1050 470"/>
+        <path class="draw draw-3" d="M 820 190 L 1000 190 L 1000 430 L 820 430 Z"/>
+        <path class="draw draw-4" d="M 910 190 L 910 430 M 820 310 L 1000 310"/>
+        <rect class="win-glow" x="820" y="190" width="180" height="240" fill="url(#gWin)"/>
+      </g>
+
+      <g class="sc-piece pc-rug">
+        <path d="M 250 500 L 780 500 L 830 560 L 200 560 Z"/>
+        <path class="thin" d="M 280 515 L 760 515 M 265 535 L 785 535"/>
+      </g>
+      <g class="sc-piece pc-sofa">
+        <path d="M 250 400 L 250 330 Q 250 315 268 315 L 512 315 Q 530 315 530 330 L 530 400"/>
+        <path d="M 235 400 L 545 400 L 545 465 L 235 465 Z"/>
+        <path d="M 250 400 L 250 465 M 530 400 L 530 465"/>
+        <path class="thin" d="M 285 400 Q 300 355 320 400 M 460 400 Q 475 355 495 400"/>
+        <path d="M 265 465 L 265 490 M 515 465 L 515 490"/>
+      </g>
+      <g class="sc-piece pc-table">
+        <path d="M 330 505 L 560 505 L 560 528 L 330 528 Z"/>
+        <path d="M 350 528 L 350 556 M 540 528 L 540 556"/>
+        <path class="thin" d="M 350 545 L 540 545"/>
+      </g>
+      <g class="sc-piece pc-chair">
+        <path d="M 640 405 L 640 330 Q 640 316 656 316 L 744 316 Q 760 316 760 330 L 760 405"/>
+        <path d="M 626 405 L 774 405 L 774 462 L 626 462 Z"/>
+        <path class="thin" d="M 660 405 Q 700 362 740 405"/>
+        <path d="M 648 462 L 640 492 M 752 462 L 760 492"/>
+      </g>
+      <g class="sc-piece pc-lamp">
+        <path d="M 175 262 L 235 262 L 222 320 L 188 320 Z"/>
+        <path d="M 205 320 L 205 478"/><path d="M 176 478 L 234 478"/>
+        <ellipse class="lamp-glow" cx="205" cy="345" rx="86" ry="105" fill="url(#gLamp)"/>
+      </g>
+      <g class="sc-piece pc-pendant">
+        <path d="M 588 130 L 588 200 M 640 130 L 640 172 M 692 130 L 692 216"/>
+        <circle cx="588" cy="218" r="19"/><circle cx="640" cy="190" r="15"/><circle cx="692" cy="234" r="17"/>
+        <ellipse class="pend-glow" cx="640" cy="230" rx="130" ry="86" fill="url(#gPend)"/>
+      </g>
+      <g class="sc-piece pc-console">
+        <path d="M 300 210 L 470 210 L 470 300 L 300 300 Z"/>
+        <path class="thin" d="M 316 226 L 454 226 L 454 284 L 316 284 Z"/>
+      </g>
+      <g class="sc-piece pc-side">
+        <path d="M 580 430 L 660 430 L 660 446 L 580 446 Z"/>
+        <path d="M 594 446 L 594 480 M 646 446 L 646 480"/>
+        <path class="thin" d="M 606 430 Q 598 402 614 392 Q 630 384 634 406 Q 638 424 626 430"/>
+      </g>
+      <g class="sc-piece pc-plant">
+        <path d="M 862 470 L 862 408 L 918 408 L 918 470"/>
+        <path class="thin" d="M 890 408 L 890 330"/>
+        <path class="thin" d="M 890 348 Q 848 330 838 292 Q 876 296 890 340"/>
+        <path class="thin" d="M 890 356 Q 934 336 946 298 Q 906 302 890 348"/>
+        <path class="thin" d="M 890 330 Q 862 300 868 262 Q 894 282 890 322"/>
+        <path class="thin" d="M 890 336 Q 920 306 916 268 Q 890 290 890 328"/>
+      </g>
+      <g class="sc-piece pc-stool">
+        <ellipse cx="1000" cy="444" rx="42" ry="13"/>
+        <path d="M 962 448 L 970 492 M 1038 448 L 1030 492"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal">Warm. Natural. Refined.</p>
+    <h1 class="hero-headline reveal">Spatial Planning<br />to Elevate<br /><em>Every Space</em></h1>
+    <p class="hero-sub reveal">Architectural thinking. Considered spaces. Timeless design, lasting impact.</p>
+    <div class="hero-actions reveal">
+      <a href="#portfolio" class="btn btn-primary">View Our Projects</a>
+      <a href="#contact" class="btn btn-secondary">Start a Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MARQUEE ══ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <div class="marquee-group"><span>Spatial Planning</span><i>✦</i><span>Interior Design</span><i>✦</i><span>Showroom Design</span><i>✦</i><span>Project Management</span><i>✦</i><span>Custom Manufacturing</span><i>✦</i></div>
+    <div class="marquee-group" aria-hidden="true"><span>Spatial Planning</span><i>✦</i><span>Interior Design</span><i>✦</i><span>Showroom Design</span><i>✦</i><span>Project Management</span><i>✦</i><span>Custom Manufacturing</span><i>✦</i></div>
+  </div>
+</div>
+
+ <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Years Operating</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">340+</span><span class="stat-label">Projects Delivered</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">14+</span><span class="stat-label">Major Brands</span></div>
+    </div>
+  </div>
+
+<!-- ══ ABOUT ══ -->
+<section id="about" class="about-section">
+
+  <div class="about-intro">
+    <div class="container">
+      <div class="section-head">
+        <p class="label">Who We Are</p>
+        <h2 class="section-title">Introduction</h2>
+      </div>
+      <div class="intro-grid">
+        <div class="intro-text fade-in-up">
+          <p class="label">About Me</p>
+          <h3>Nicoline Roux</h3>
+          <p class="flip-role">Master's-qualified Architectural Designer</p>
+          <p>I am a Master's-qualified Architectural Designer with over six years of experience designing and delivering commercial interiors, retail environments, bespoke furniture, and customer-focused spatial experiences. As a founder of The Line Studios and Custom Line Manufacturing, I have led projects from concept development through manufacturing and installation, combining creative design with technical execution.</p>
+          <p>My expertise lies in creating showroom environments that enhance customer engagement, showcase products effectively, and translate brand identity into memorable retail experiences. With a strong understanding of merchandising, modular display systems, material specification, and construction detailing, I deliver practical, buildable solutions that balance aesthetics, functionality, and commercial objectives.</p>
+          <div class="flip-meta">
+            <div><span>Education</span><strong>Master's Degree in Architecture</strong></div>
+            <div><span>Location</span><strong>Pretoria, South Africa</strong></div>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="Assets/NCP-headshot.png" alt="Nicoline Roux — Design Director" loading="lazy" />
+          <div class="flip-caption">
+            <h3>Nicoline Roux</h3>
+            <p>Design Director · Co-founder</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-ap">
+    <div class="container">
+      <div class="ap-row fade-in-up">
+        <div class="ap-text">
+          <h2 class="ap-heading">Our Approach</h2>
+          <p>At The Line, we believe great spaces begin with listening. We work closely with our clients to understand their vision, needs, and budget, ensuring every piece is both functional and thoughtfully designed.</p>
+          <p>Guided by architectural insight and engineering precision, we focus on quality workmanship, careful material selection, and attention to detail from start to finish.</p>
+          <p>Above all, our approach is personal. We value long-term relationships, honest collaboration, and going the extra mile to create furniture and spaces our clients truly feel connected to.</p>
+        </div>
+        <div class="ap-img ap-img-approach"><img src="Assets/decor_filler.png" alt="Bar interior by The Line Studios" loading="lazy" /></div>
+      </div>
+
+      <div class="ap-row ap-row-alt fade-in-up">
+        <div class="ap-img"><img src="Assets/texture_filler.png" alt="Bedroom interior by The Line Studios" loading="lazy" /></div>
+        <div class="ap-text">
+          <h2 class="ap-heading">Our Philosophy</h2>
+          <p>At The Line, we believe that a space is more than a finished product — it is part of the life lived within a space. Our philosophy is rooted in craftsmanship, integrity, and human connection.</p>
+          <p>We believe in doing things properly: thoughtful design, honest materials, and precise workmanship. We create spaces that are functional, beautiful, and built to last.</p>
+          <p>Our philosophy is simple: create meaningful spaces, build lasting relationships, and deliver quality that speaks for itself.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section id="services" class="section services-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="label">What We Do</p>
+      <h2 class="section-title">End-to-End Design Services</h2>
+      <p class="section-sub">One partner. Every phase.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="svc-col">
+        <article class="service-card">
+          <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="6" y="10" width="36" height="28" rx="1"/><path d="M14 18h20M14 24h14M14 30h8"/></svg></div>
+          <h3>Interior Design &amp; Brand Environments</h3>
+          <p>Commercial interiors that tell your brand story — lobbies, offices, showrooms, restaurants and hospitality environments designed for impact and functionality.</p>
+          <a href="#portfolio" class="svc-link">See Projects</a>
+        </article>
+        <article class="service-card">
+          <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M8 16h32v24H8z"/><path d="M16 16V10a8 8 0 0116 0v6"/><circle cx="24" cy="28" r="3"/></svg></div>
+          <h3>Furniture Wholesale</h3>
+          <p>Direct access to our curated catalogue spanning contract-grade seating, case goods, lighting and soft furnishings.</p>
+          <a href="#online" class="svc-link catalogue-scroll-link">View Catalogue</a>
+        </article>
+      </div>
+
+      <div class="svc-col svc-col-img">
+        <figure class="svc-fig"><img src="Assets/plan_filler.png" alt="Interior design work" loading="lazy" /><figcaption>Interior Design</figcaption></figure>
+        <figure class="svc-fig"><img src="Assets/styling.jpg" alt="Styling and décor" loading="lazy" /><figcaption>Styling &amp; Décor</figcaption></figure>
+      </div>
+
+      <div class="svc-col">
+        <article class="service-card">
+          <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="8" y="8" width="14" height="14" rx="1"/><rect x="26" y="8" width="14" height="14" rx="1"/><rect x="8" y="26" width="14" height="14" rx="1"/><rect x="26" y="26" width="14" height="14" rx="1"/></svg></div>
+          <h3>Spatial Planning</h3>
+          <p>Data-informed layouts that maximise workflow efficiency, occupancy comfort and regulatory compliance — for new builds or refurbishments.</p>
+          <a href="#portfolio" class="svc-link">See Projects</a>
+        </article>
+        <article class="service-card">
+          <div class="svc-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="24" cy="20" r="8"/><path d="M12 40c0-6.6 5.4-12 12-12s12 5.4 12 12"/></svg></div>
+          <h3>Project Management</h3>
+          <p>Dedicated project leads, contractor coordination, milestone reporting and site supervision — keeping every project on time and in scope.</p>
+          <a href="#process" class="svc-link">Our Process</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CLIENT LOGOS ══ -->
+<section class="clients" aria-label="Brands we have worked with">
+  <p class="clients-label">Trusted By</p>
+
+  <div class="logo-strip">
+    <div class="logo-track logo-track-l">
+      <div class="logo-group"><span class="logo-item"><img src="Assets/Logos/Bidvest.png" alt="Bidvest" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Nthambo.png" alt="nThambo Tree Camp" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Italtile.png" alt="Italtile" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Chacma.png" alt="Chacma Bush Camp" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Kinetix.png" alt="Kinetix" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Africa_on_foot.png" alt="Africa on Foot" loading="lazy" /></span></div>
+      <div class="logo-group" aria-hidden="true"><span class="logo-item"><img src="Assets/Logos/Bidvest.png" alt="Bidvest" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Nthambo.png" alt="nThambo Tree Camp" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Italtile.png" alt="Italtile" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Chacma.png" alt="Chacma Bush Camp" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Kinetix.png" alt="Kinetix" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Africa_on_foot.png" alt="Africa on Foot" loading="lazy" /></span></div>
+    </div>
+  </div>
+
+  <div class="logo-strip">
+    <div class="logo-track logo-track-r">
+      <div class="logo-group"><span class="logo-item"><img src="Assets/Logos/Life hospital.png" alt="Life Groenkloof Hospital" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Mikes kitchen.png" alt="Mike's Kitchen" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Trollope.png" alt="Trollope" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/sun destination.png" alt="SD Collection" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Isoclear.png" alt="Isoclear" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Thebeibelwe.png" alt="Thebeibelwe" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Mahindra.png" alt="Mahindra" loading="lazy" /></span></div>
+      <div class="logo-group" aria-hidden="true"><span class="logo-item"><img src="Assets/Logos/Life hospital.png" alt="Life Groenkloof Hospital" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Mikes kitchen.png" alt="Mike's Kitchen" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Trollope.png" alt="Trollope" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/sun destination.png" alt="SD Collection" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Isoclear.png" alt="Isoclear" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Thebeibelwe.png" alt="Thebeibelwe" loading="lazy" /></span><span class="logo-item"><img src="Assets/Logos/Mahindra.png" alt="Mahindra" loading="lazy" /></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PORTFOLIO ══ -->
+<section id="portfolio" class="section portfolio-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="label">Selected Work</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub" id="pfSub">Choose a category to explore the work.</p>
+    </div>
+
+    <div class="pf-categories" id="pfCategories">
+      <button class="pf-cat" data-cat="commercial" type="button">
+        <img src="Assets/Com_Portfolio/Mahindra/1786996651465-3c2d1ee2-ddb0-4e09-a9f4-2ed19c8068dd_1.jpg" alt="Commercial projects" loading="lazy" />
+        <span class="pf-cat-veil"></span>
+        <span class="pf-cat-body">
+          <span class="pf-cat-name">Commercial</span>
+          <span class="pf-cat-count">12 Projects</span>
+          <span class="pf-cat-cta">Click Me</span>
+        </span>
+      </button>
+
+      <button class="pf-cat" data-cat="hospitality" type="button">
+        <img src="Assets/Hos_Portfolio/Chacma/chacma.jpeg" alt="Hospitality projects" loading="lazy" />
+        <span class="pf-cat-veil"></span>
+        <span class="pf-cat-body">
+          <span class="pf-cat-name">Hospitality</span>
+          <span class="pf-cat-count">2 Collections</span>
+          <span class="pf-cat-cta">Click Me</span>
+        </span>
+      </button>
+
+      <button class="pf-cat" data-cat="retail" type="button">
+        <img src="Assets/Ret_Portfolio/Nude society_page-0008.jpg" alt="Retail projects" loading="lazy" />
+        <span class="pf-cat-veil"></span>
+        <span class="pf-cat-body">
+          <span class="pf-cat-name">Retail</span>
+          <span class="pf-cat-count">10 Projects</span>
+          <span class="pf-cat-cta">Click Me</span>
+        </span>
+      </button>
+
+      <button class="pf-cat" data-cat="private" type="button">
+        <img src="Assets/Res_Portfolio/Naidoo/Living area.png" alt="Private residence projects" loading="lazy" />
+        <span class="pf-cat-veil"></span>
+        <span class="pf-cat-body">
+          <span class="pf-cat-name">Private Residences</span>
+          <span class="pf-cat-count">2 Collections</span>
+          <span class="pf-cat-cta">Click Me</span>
+        </span>
+      </button>
+    </div>
+
+    <div class="pf-detail" id="pfDetail" hidden>
+      <div class="pf-detail-bar">
+        <button class="pf-back" id="pfBack" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 18l-6-6 6-6"/></svg>
+          Back
+        </button>
+        <h3 class="pf-detail-title" id="pfDetailTitle"></h3>
+      </div>
+      <div class="pf-categories pf-subcats" id="pfSubcats" hidden></div>
+      <div class="pf-collage" id="pfCollage"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ PROCESS ══ -->
+<section id="process" class="section process-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="label">How We Work</p>
+      <h2 class="section-title">The Line Studios Process</h2>
+      <p class="section-sub">Six phases. Zero surprises.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="spine" id="processSpine">
+        <div class="spine-fill" id="processSpineFill"></div>
+        <div class="spine-glow" id="processSpineGlow"></div>
+      </div>
+
+      <div class="tl-row tl-left process-step">
+        <div class="tl-cell">
+          <div class="stone step-num-anim"><span class="stone-num">01</span></div>
+          <div class="tl-copy">
+            <h3>Discovery &amp; Briefing</h3>
+            <p>An in-depth consultation to understand your brand identity, operational needs, timeline and budget before a single line is drawn.</p>
+          </div>
+        </div>
+        <div class="tl-node"><span class="node-dot"></span></div>
+        <div class="tl-cell tl-blank"></div>
+      </div>
+
+      <div class="tl-row tl-right process-step">
+        <div class="tl-cell tl-blank"></div>
+        <div class="tl-node"><span class="node-dot"></span></div>
+        <div class="tl-cell">
+          <div class="stone step-num-anim"><span class="stone-num">02</span></div>
+          <div class="tl-copy">
+            <h3>Concept Development</h3>
+            <p>Mood boards, spatial narratives and material palettes prepared for your approval — translating the brief into a cohesive design vision.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-row tl-left process-step">
+        <div class="tl-cell">
+          <div class="stone step-num-anim"><span class="stone-num">03</span></div>
+          <div class="tl-copy">
+            <h3>Technical Design</h3>
+            <p>Detailed drawings, specifications, BOQs and 3D renders prepared to construction-ready standard and coordinated with consultants.</p>
+          </div>
+        </div>
+        <div class="tl-node"><span class="node-dot"></span></div>
+        <div class="tl-cell tl-blank"></div>
+      </div>
+
+      <div class="tl-row tl-right process-step">
+        <div class="tl-cell tl-blank"></div>
+        <div class="tl-node"><span class="node-dot"></span></div>
+        <div class="tl-cell">
+          <div class="stone step-num-anim"><span class="stone-num">04</span></div>
+          <div class="tl-copy">
+            <h3>Procurement &amp; Supply</h3>
+            <p>Furniture, fixtures and finishes sourced directly through our store and wholesale network at meaningful savings over retail.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-row tl-left process-step">
+        <div class="tl-cell">
+          <div class="stone step-num-anim"><span class="stone-num">05</span></div>
+          <div class="tl-copy">
+            <h3>Site Execution</h3>
+            <p>Our project managers oversee contractors, run regular site inspections and maintain weekly reporting so you stay informed throughout.</p>
+          </div>
+        </div>
+        <div class="tl-node"><span class="node-dot"></span></div>
+        <div class="tl-cell tl-blank"></div>
+      </div>
+
+      <div class="tl-row tl-right process-step">
+        <div class="tl-cell tl-blank"></div>
+        <div class="tl-node"><span class="node-dot"></span></div>
+        <div class="tl-cell">
+          <div class="stone step-num-anim"><span class="stone-num">06</span></div>
+          <div class="tl-copy">
+            <h3>Handover &amp; Aftercare</h3>
+            <p>Professional photography, as-built documentation and a 12-month aftercare warranty. We build partnerships, not transactions.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ ONLINE STORE ══ -->
+<section id="online" class="online-section">
+  <div class="online-bg">
+    <img src="Assets/online-bg.jpeg" alt="" class="online-bg-img" loading="lazy" />
+    <div class="online-veil"></div>
+  </div>
+
+  <div class="container online-content">
+    <p class="label online-label">Shop Online</p>
+    <h2 class="section-title online-title">Curated Furniture.<br /><em>Coming Soon.</em></h2>
+    <p class="online-desc">We're building an online store to bring The Line's curated catalogue directly to you. Check back soon.</p>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS ══ -->
+<section class="section testimonials-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="label">Client Voices</p>
+      <h2 class="section-title">What They Say</h2>
+    </div>
+    <div class="testimonials-track">
+      <article class="testimonial-card">
+        <div class="quote-mark">“</div>
+        <p>Nicoline and Johann transformed our home completely. Every detail was thought through — from the furniture selection to the lighting. They listened to exactly what we wanted and delivered beyond what we imagined.</p>
+        <div class="quote-author"><div class="avatar">SV</div><div><strong>Sonja van der Merwe</strong><span>Residential Client · Pretoria</span></div></div>
+      </article>
+      <article class="testimonial-card">
+        <div class="quote-mark">“</div>
+        <p>Working with The Line was a pleasure from start to finish. Professional, creative, and they truly understand spaces. Our lodge rooms look incredible and guests comment on the décor every day.</p>
+        <div class="quote-author"><div class="avatar">RB</div><div><strong>Ruan Botha</strong><span>Lodge Owner · Limpopo</span></div></div>
+      </article>
+      <article class="testimonial-card">
+        <div class="quote-mark">“</div>
+        <p>The quality of the furniture and the attention to detail is second to none. Johann knows his materials inside out and Nicoline's eye for design pulled the whole space together beautifully.</p>
+        <div class="quote-author"><div class="avatar">CM</div><div><strong>Chané Mostert</strong><span>Residential Client · Johannesburg</span></div></div>
+      </article>
+    </div>
+    <div class="testimonial-dots">
+      <button class="dot active" data-idx="0" aria-label="Testimonial 1"></button>
+      <button class="dot" data-idx="1" aria-label="Testimonial 2"></button>
+      <button class="dot" data-idx="2" aria-label="Testimonial 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-banner">
+  <div class="cta-content">
+    <h2>Ready to Transform Your Space?</h2>
+    <p>Let's start a conversation about your next project.</p>
+    <a href="#contact" class="btn btn-light">Get in Touch</a>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact" class="section contact-section">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <p class="label">Get In Touch</p>
+      <h2 class="section-title">Let's Build Something Lasting</h2>
+      <p class="contact-lead">Tell us about your project and we'll come back to you within one business day.</p>
+
+      <ul class="contact-list">
+        <li><span>Telephone</span><a href="tel:+27833821738">+27 83 700 2905</a></li>
+        <li><span>Email</span><a href="mailto:info@thelineco.co.za">info@thelineco.co.za</a></li>
+        <li><span>Location</span><p>Pretoria, South Africa</p></li>
+        <li><span>Store</span><a href="https://thelineco.co.za" target="_blank" rel="noopener">thelineco.co.za</a></li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="field-row">
+        <div class="field"><label for="name">Name *</label><input type="text" id="name" name="name" required /></div>
+        <div class="field"><label for="email">Email *</label><input type="email" id="email" name="email" required /></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label for="company">Company</label><input type="text" id="company" name="company" /></div>
+        <div class="field">
+          <label for="type">Project Type</label>
+          <select id="type" name="type">
+            <option value="">Select…</option>
+            <option>Commercial Interior</option>
+            <option>Hospitality</option>
+            <option>Private Residence</option>
+            <option>Furniture Supply</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label for="message">Project Details *</label><textarea id="message" name="message" rows="5" required></textarea></div>
+      <div class="field-hp" aria-hidden="true">
+        <label for="hp_website">Website</label>
+        <input type="text" id="hp_website" name="hp_website" tabindex="-1" autocomplete="off" />
+      </div>
+      <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+        <span class="btn-label">Send Enquiry</span><span class="btn-icon">→</span>
+      </button>
+      <div class="form-success" id="formSuccess">Thank you — your enquiry has been received. We'll be in touch shortly.</div>
+    </form>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#hero" class="footer-logo">
+        <img src="Assets/Fav/TLS_footer_logo.png" alt="The Line Studios — Spatial Planning to Interior Design" class="footer-logo-img" />
+      </a>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/co.theline" target="_blank" rel="noopener" aria-label="The Line Studios on Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 8h-2a2 2 0 00-2 2v2H9v3h2v7h3v-7h2.2l.4-3H14v-1.5c0-.55.45-1 1-1H16V8h-1z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/co.theline" target="_blank" rel="noopener" aria-label="The Line Studios on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/the-line-studios-904b91210/" target="_blank" rel="noopener" aria-label="The Line Studios on LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M8 10.5v6M8 7.7v.01M12.3 16.5v-3.4c0-1.2.9-2.1 2.1-2.1s2.1.9 2.1 2.1v3.4M12.3 10.5v6"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@theline.co" target="_blank" rel="noopener" aria-label="The Line Studios on TikTok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15.5 3.5c.4 2.2 1.9 3.8 4 4v3c-1.5 0-2.9-.5-4-1.3V15a5.3 5.3 0 11-5.3-5.3c.3 0 .6 0 .9.1v3.1a2.2 2.2 0 102.1 2.2V3.5h2.3z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Projects</a><a href="#process">Process</a>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <a href="https://thelineco.co.za" target="_blank" rel="noopener">Online Store</a>
+      <a href="#online">Catalogue</a><a href="#contact">Trade Enquiries</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="#" data-legal="privacy">Privacy Policy</a>
+      <a href="#" data-legal="terms">Terms of Service</a>
+      <a href="#" data-legal="cookies">Cookie Policy</a>
+      <a href="#" id="cookieSettings">Cookie Settings</a>
+    </div>
+  </div>
+  <div class="footer-base">
+    <p>&copy; <span id="yr"></span> The Line Studios. All rights reserved.</p>
+    <p>Timeless design. Lasting impact.</p>
+  </div>
+</footer>
+
+<!-- ══ COOKIE BANNER ══ -->
+<div class="cookie-bar" id="cookieBar" hidden>
+  <div class="cookie-inner">
+    <div class="cookie-copy">
+      <strong>We use cookies</strong>
+      <p>We use essential cookies to run this site and optional analytics cookies to understand how it's used. You can accept all, reject optional cookies, or read our <a href="#" data-legal="cookies">Cookie Policy</a>.</p>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-ghost btn-sm" id="cookieReject" type="button">Reject Optional</button>
+      <button class="btn btn-primary btn-sm" id="cookieAccept" type="button">Accept All</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ LEGAL MODAL ══ -->
+<div class="modal" id="legalModal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="legalTitle">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <h2 id="legalTitle"></h2>
+    <div class="modal-body" id="legalBody"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="app.js?v=20260825"></script>
+</body>
+</html>
